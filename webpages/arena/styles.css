@@ -1,0 +1,30 @@
+@font-face{
+    font-family: "Fixedsys Excelsior";
+    src: url("../../files/fonts/fixedsysexcelsior.ttf");
+}
+canvas{
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: 50%;
+    image-rendering: pixelated;
+}
+.canvasContainer{
+    display: flex;
+    justify-content: center;
+}
+.playersInfoContainer{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.playersInfoContainer h1{
+    font-family: "Fixedsys Excelsior";
+}
+.combatInfoContainer{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
